@@ -6,15 +6,25 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          100: '#E6F4D9', // ljusgrön bakgrund
-          500: '#8BC34A', // standardgrön
-          700: '#689F38', // mörkare grön för text/knappar
+          100: '#FDE8EB', // ljusrosa bakgrund
+          500: '#E28CA6', // dov rosa (rubriker)
+          700: '#B35F74', // mörkare rosa
         },
         secondary: {
-          100: '#FFF8E1', // ljusgul bakgrund
-          500: '#FFD54F', // standardgul
-          700: '#FFA000', // mörkare accent
+          100: '#E6F4E3', // ljusgrön bakgrund
+          500: '#8BC17F', // grönt accent
+          700: '#5F9A5B', // mörkare grön
         },
+        accent: {
+          100: '#FFF5E6', // ljus aprikos/guld
+          500: '#F2B87F', // varm accent
+          700: '#D9954F', // mörkare accent
+        },
+      },
+      fontFamily: {
+        script: ['"Great Vibes"', 'cursive'],
+        serif: ['"Playfair Display"', 'serif'],
+        body: ['"Lora"', 'serif'],
       },
     },
   },

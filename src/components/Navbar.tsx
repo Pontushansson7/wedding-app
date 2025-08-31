@@ -19,7 +19,6 @@ export default function Navbar() {
     { id: 'schedule', label: 'Schema' },
     { id: 'location', label: 'Plats' },
     { id: 'rsvp', label: 'OSA' },
-    { id: 'gallery', label: 'Galleri' },
   ];
 
   const handleLinkClick = (id: string) => {
@@ -31,11 +30,10 @@ export default function Navbar() {
   return (
     <>
       {/* Header */}
-      <header className="fixed top-0 left-0 w-full z-30 flex justify-between items-center p-4 bg-primary-50 shadow-md">
-        <h1 className="text-primary-700 font-bold text-xl">Vårt bröllop</h1>
-
+      <header className="fixed top-0 left-0 w-full z-30 flex justify-between items-center p-4 bg-primary-100 shadow-md">
+        <h1 className="text-primary-700 font-serif text-xl">Pontus & Amanda bröllop</h1>
         <button
-          className="p-2 rounded bg-primary-100 hover:bg-primary-200 md:p-3"
+          className="p-2 rounded bg-secondary-100 hover:bg-secondary-500 md:p-3"
           onClick={() => setOpen(!open)}
         >
           {open ? <X className="text-primary-700" /> : <Menu className="text-primary-700" />}
