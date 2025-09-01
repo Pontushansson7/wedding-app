@@ -20,6 +20,8 @@ export default function Navbar() {
     { id: 'location', label: 'Plats' },
     { id: 'toastcouple', label: 'Toastpar' },
     { id: 'accommodation', label: 'Boende' },
+    { id: 'location_description', label: 'Platsbeskrivning' },
+    { id: 'gift', label: 'Gåva' },
     { id: 'rsvp', label: 'OSA' },
   ];
 
