@@ -18,6 +18,8 @@ export default function Navbar() {
     { id: 'welcome', label: 'Välkommen' },
     { id: 'schedule', label: 'Schema' },
     { id: 'location', label: 'Plats' },
+    { id: 'toastcouple', label: 'Toastpar' },
+    { id: 'accommodation', label: 'Boende' },
     { id: 'rsvp', label: 'OSA' },
   ];
 
