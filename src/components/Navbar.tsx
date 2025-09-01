@@ -50,11 +50,11 @@ export default function Navbar() {
       {/* Sidebar */}
       <div
         className={`
-          fixed top-0 h-full bg-primary-100 shadow-lg z-20 transform transition-transform duration-300
-          w-full md:w-1/6
-          md:right-0 md:left-auto
-          pt-20
-        `}
+    fixed top-0 h-full bg-[#FAF9F6] shadow-lg z-20 transform transition-transform duration-300
+    w-full md:w-1/6
+    md:right-0 md:left-auto
+    pt-20
+  `}
         style={{
           pointerEvents: open ? 'auto' : 'none',
           transform: open ? 'translateX(0)' : 'translateX(100%)',
@@ -64,7 +64,7 @@ export default function Navbar() {
           {sections.map((s) => (
             <li key={s.id}>
               <button
-                className="hover:text-primary-500 text-left w-full"
+                className="hover:text-primary-500 text-left w-full font-serif"
                 onClick={() => handleLinkClick(s.id)}
               >
                 {s.label}
