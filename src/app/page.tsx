@@ -37,12 +37,10 @@ export default function Home() {
         <Section id="toastcouple" title="Toastpar">
           <p className="font-serif text-lg text-gray-800 mb-2">
             Vill du hålla tal? Hör av dig till toastparet{' '}
-            <span className="font-semibold">Rebecca</span> och{' '}
-            <span className="font-semibold">Tobias</span> på
+            <span className="font-bold text-primary-700">Rebecca</span> och{' '}
+            <span className="font-bold text-primary-700">Tobias</span> på
           </p>
-          <span className="block font-bold text-xl text-primary-700 tracking-wide">
-            073-6808802
-          </span>
+          <span className="font-bold text-primary-700">073-6808802</span>
         </Section>
 
         {/* Boende */}
