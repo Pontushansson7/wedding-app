@@ -100,7 +100,7 @@ export default function Home() {
         <Section id="rsvp" title="OSA">
           <p className="font-serif text-lg text-gray-800 mb-2">
             O.s.a senast <span className="font-bold text-primary-700">1 mars</span> till Amanda på{' '}
-            <span className="font-bold text-primary-700">070-0437326</span>.
+            <span className="font-bold text-primary-700">070-0437326</span>
           </p>
           <p className="font-serif text-lg text-gray-800">
             Hör gärna av dig i samband med anmälan om du har någon allergi eller behöver specialkost
