@@ -34,8 +34,11 @@ export default function Navbar() {
   return (
     <>
       {/* Header */}
-      <header className="fixed top-0 left-0 w-full z-30 flex justify-between items-center p-4 bg-primary-100 shadow-md">
-        <h1 className="text-primary-700 font-serif text-xl">Pontus & Amanda bröllop</h1>
+      <header
+        className="fixed top-0 left-0 w-full z-30 flex justify-between items-center p-4
+                   bg-[#FAF9F6] shadow-md"
+      >
+        <h1 className="text-primary-700 font-serif text-xl">Pontus & Amandas bröllop</h1>
         <button
           className="p-2 rounded bg-secondary-100 hover:bg-secondary-500 md:p-3"
           onClick={() => setOpen(!open)}
