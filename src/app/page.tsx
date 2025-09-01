@@ -84,15 +84,15 @@ export default function Home() {
         {/* Platsbeskrivning */}
         <Section id="location_description" title="Platsbeskrivning">
           <p className="font-serif text-lg text-gray-800">
-            Här kommer det upp information om platsbeskrivningar till kapell, boende och festlokalen
-            Nösund Sjöbod.
+            Här hittar du så småningom information om platsen för vigseln, boendealternativ och
+            festlokalen Nösund Sjöbod.
           </p>
         </Section>
 
         {/* Gåva */}
         <Section id="gift" title="Gåva">
           <p className="font-serif text-lg text-gray-800">
-            Här kommer det upp information om hur man lämnar en eventuell gåva längre fram.
+            Vill du ge en gåva? Mer information om hur det går till kommer längre fram.
           </p>
         </Section>
 
