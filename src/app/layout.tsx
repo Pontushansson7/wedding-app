@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Great_Vibes, Playfair_Display, Lora } from 'next/font/google';
 
 export const metadata: Metadata = {
-  title: 'Vårt Bröllop',
+  title: 'Pontus & Amandas bröllop',
   description: 'Information om vårt bröllop',
 };
 
