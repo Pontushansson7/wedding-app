@@ -58,11 +58,8 @@ export default function Home() {
           <div className="font-serif text-lg text-gray-800 space-y-2 mb-6">
             <div>
               <span className="font-semibold">Mail: </span>
-              <a
-                href="mailto:nosundsgarden@nosundsgarden.se"
-                className="text-primary-700 font-medium"
-              >
-                nosundsgarden@nosundsgarden.se
+              <a href="mailto:ng@nosundsgarden.se" className="text-primary-700 font-medium">
+                ng@nosundsgarden.se
               </a>
             </div>
             <div>
