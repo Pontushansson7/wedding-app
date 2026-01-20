@@ -112,8 +112,9 @@ export default function Home() {
         {/* OSA */}
         <Section id="rsvp" title="OSA">
           <p className="font-serif text-lg text-gray-800 mb-2">
-            O.s.a senast <span className="font-medium italic text-primary-700">1 mars</span> till{' '}
-            <span className="font-medium italic text-primary-700">Amanda</span> på{' '}
+            O.s.a senast{' '}
+            <span className="font-serif font-semibold text-secondary-700">1 mars </span>
+            till <span className="font-medium italic text-primary-700">Amanda</span> på{' '}
             <span className="font-medium italic">070-043 73 26</span>.
           </p>
           <p className="font-serif text-lg text-gray-800">
