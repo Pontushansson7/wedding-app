@@ -35,12 +35,15 @@ export default function Home() {
 
         {/* Toastpar */}
         <Section id="toastcouple" title="Toastpar">
-          <p className="font-serif text-lg text-gray-800 mb-2">
-            Vill du hålla tal? Hör av dig till toastparet{' '}
-            <span className="font-bold text-primary-700">Rebecca</span> och{' '}
-            <span className="font-bold text-primary-700">Tobias</span> på
+          <p className="font-serif text-lg text-gray-800">
+            Vill du hålla tal eller överraska med något under middagen? Hör gärna av dig till vårt
+            toastpar <span className="font-medium italic text-primary-700">Rebecca</span> och{' '}
+            <span className="font-medium italic text-primary-700">Tobias</span>.
           </p>
-          <span className="font-bold text-primary-700">073-6808802</span>
+
+          <p className="mt-4 font-serif text-lg text-gray-800">
+            De nås på <span className="font-medium italic">073-680 88 02</span>.
+          </p>
         </Section>
 
         {/* Boende */}
@@ -52,21 +55,24 @@ export default function Home() {
           </p>
           <p className="font-serif text-lg text-gray-800 mb-4">
             Sista dagen för bokning är <span className="font-semibold">1 februari</span>. Bokning
-            sker genom att ange Pontus eller Amandas namn via:
+            sker genom att ange <span className="font-medium italic text-primary-700">Pontus</span>{' '}
+            eller <span className="font-medium italic text-primary-700">Amanda</span>s namn via:
           </p>
 
           <div className="font-serif text-lg text-gray-800 space-y-2 mb-6">
             <div>
               <span className="font-semibold">Mail: </span>
-              <a href="mailto:ng@nosundsgarden.se" className="text-primary-700 font-medium">
+              <a href="mailto:ng@nosundsgarden.se" className="font-medium italic text-primary-700">
                 ng@nosundsgarden.se
               </a>
             </div>
             <div>
-              <span className="font-semibold">Telefon: </span>0304-20999
+              <span className="font-semibold">Telefon: </span>
+              <span className="font-medium italic">0304-20999</span>
             </div>
             <div>
-              <span className="font-semibold">Mobil (om telefon inte svarar): </span>070-5220285
+              <span className="font-semibold">Mobil (om telefon inte svarar): </span>
+              <span className="font-medium italic">070-522 02 85</span>
             </div>
           </div>
 
@@ -87,15 +93,28 @@ export default function Home() {
         {/* Gåva */}
         <Section id="gift" title="Gåva">
           <p className="font-serif text-lg text-gray-800">
-            Vill du ge en gåva? Mer information om hur det går till kommer längre fram.
+            Er närvaro betyder mer för oss än något annat, och det finns inga förväntningar på
+            gåvor.
+          </p>
+
+          <p className="mt-4 font-serif text-lg text-gray-800">
+            För den som ändå vill ge något, blir vi väldigt glada för en gåva till vår bröllopsresa
+            och framtida äventyr tillsammans.
+          </p>
+
+          <p className="mt-4 font-serif text-lg text-gray-800">
+            Gåvan kan swishas till{' '}
+            <span className="font-medium italic text-primary-700">Tobias Gremalm Vouros</span> på{' '}
+            <span className="font-medium italic">070-279 34 71</span>.
           </p>
         </Section>
 
         {/* OSA */}
         <Section id="rsvp" title="OSA">
           <p className="font-serif text-lg text-gray-800 mb-2">
-            O.s.a senast <span className="font-bold text-primary-700">1 mars</span> till Amanda på{' '}
-            <span className="font-bold text-primary-700">070-0437326</span>
+            O.s.a senast <span className="font-medium italic text-primary-700">1 mars</span> till{' '}
+            <span className="font-medium italic text-primary-700">Amanda</span> på{' '}
+            <span className="font-medium italic">070-043 73 26</span>.
           </p>
           <p className="font-serif text-lg text-gray-800">
             Hör gärna av dig i samband med anmälan om du har någon allergi eller behöver specialkost
