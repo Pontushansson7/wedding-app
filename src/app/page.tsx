@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Section from '@/components/Section';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -29,8 +30,31 @@ export default function Home() {
 
         {/* Plats */}
         <Section id="location" title="Plats">
-          <p className="font-serif text-lg text-gray-800 mb-1">Nösund Kapell</p>
-          <p className="font-serif text-lg text-gray-800">Festen på Nösund Sjöstuga</p>
+          <p className="font-serif text-lg text-gray-800 mb-2">
+            Vigseln äger rum i{' '}
+            <a
+              href="https://www.google.com/maps/place/N%C3%B6sunds+kapell/@58.1121434,11.5213828,17z/data=!4m6!3m5!1s0x46459df08b736d8d:0xbe591684fcf7f12e!8m2!3d58.1121434!4d11.5239577!16s%2Fg%2F11f_zymw9n?entry=ttu&g_ep=EgoyMDI2MDMxNS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium italic text-primary-700 underline"
+            >
+              Nösund Kapell
+            </a>
+            .
+          </p>
+          <p className="font-serif text-lg text-gray-800">
+            Festen hålls på{' '}
+            <a
+              href="https://maps.app.goo.gl/7yZZfpFwa4Ygseow7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium italic text-primary-700 underline"
+            >
+              Nösund Sjöstuga
+            </a>
+            , som ligger vid havet och bara några minuter från kapellet. Vägen dit går via bryggan
+            som börjar vid <span className="font-medium">Galleri Tärnan</span>.
+          </p>
         </Section>
 
         {/* Toastpar */}
@@ -84,10 +108,24 @@ export default function Home() {
 
         {/* Platsbeskrivning */}
         <Section id="location_description" title="Platsbeskrivning">
-          <p className="font-serif text-lg text-gray-800">
-            Här hittar du så småningom information om platsen för vigseln, boendealternativ och
-            festlokalen Nösund Sjöbod.
+          <p className="font-serif text-lg text-gray-800 max-w-2xl mx-auto text-center">
+            På kartan hittar du vägen till både vigseln och festen, samt parkering. Det är cirka 1,5
+            km mellan vigselplatsen och festlokalen.
           </p>
+
+          <p className="font-serif text-lg text-gray-800 max-w-2xl mx-auto text-center">
+            För dig som bor på Nösundsgården finns egen parkering tillgänglig direkt vid boendet.
+          </p>
+
+          <div className="flex justify-center mt-8 md:mt-10">
+            <Image
+              src="/map.png"
+              alt="Platsbeskrivning"
+              width={800}
+              height={600}
+              className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto rounded-2xl shadow-xl"
+            />
+          </div>
         </Section>
 
         {/* Gåva */}
