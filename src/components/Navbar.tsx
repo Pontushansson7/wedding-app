@@ -17,10 +17,9 @@ export default function Navbar() {
   const sections = [
     { id: 'welcome', label: 'Välkommen' },
     { id: 'schedule', label: 'Schema' },
-    { id: 'location', label: 'Plats' },
-    { id: 'toastcouple', label: 'Toastpar' },
+    { id: 'location_description', label: 'Plats & Karta' },
     { id: 'accommodation', label: 'Boende' },
-    { id: 'location_description', label: 'Platsbeskrivning' },
+    { id: 'toastcouple', label: 'Toastpar' },
     { id: 'gift', label: 'Gåva' },
     { id: 'rsvp', label: 'OSA' },
   ];

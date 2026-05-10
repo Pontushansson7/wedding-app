@@ -7,7 +7,6 @@ export const metadata: Metadata = {
   description: 'Information om vårt bröllop',
 };
 
-// Ladda fonter
 const script = Great_Vibes({
   weight: '400',
   subsets: ['latin'],
