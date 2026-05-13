@@ -26,7 +26,7 @@ export default function Navbar() {
 
   const handleLinkClick = (id: string) => {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    if (el) el.scrollIntoView();
     setOpen(false);
   };
 

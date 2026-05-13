@@ -10,10 +10,13 @@ export default function Section({ id, title, children }: SectionProps) {
       id={id}
       className="
         min-h-screen
-        flex flex-col justify-center items-center
-        p-12 text-center
+        flex flex-col items-center
+        justify-starts
+        pt-32 pb-16 px-12
+        text-center
         bg-primary-100 even:bg-secondary-100
-      "
+        scroll-mt-24
+        "
     >
       {/* Titel med script-font för romantisk känsla */}
       {title && (
