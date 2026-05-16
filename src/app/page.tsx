@@ -99,7 +99,7 @@ export default function Home() {
             </div>
 
             <div className="rounded-3xl bg-primary-50/70 p-6 shadow-md md:p-8">
-              <h3 className={headingClass}>21:00 – Fest</h3>
+              <h3 className={headingClass}>21:20 – Fest</h3>
 
               <div className={`mt-4 ${bodyClass}`}>
                 <p>
